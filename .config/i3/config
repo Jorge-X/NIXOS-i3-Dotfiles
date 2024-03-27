@@ -291,7 +291,8 @@ bindsym $mod+w exec --no-startup-id google-chrome-stable
 bindsym $mod+n exec --no-startup-id nautilus
 #bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 #bindsym Print exec --no-startup-id scrot '/Imagens/%Y-%m-%d-%T-screenshot.png' && notify-send 'Screenshot saved to /Imagens/$(date +"%Y-%m-%d-%T-screenshot.png")'
-bindsym Print exec --no-startup-id scrot '/home/Imagens/%Y-%m-%d-%T-screenshot.png' && notify-send 'Screenshot saved to /home/Imagens/$(date +"%Y-%m-%d-%T-screenshot.png")'
+bindsym Print exec --no-startup-id xfce4-screenshooter
+
 
 # Power Profiles menu switcher (rofi)
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
