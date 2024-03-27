@@ -1,4 +1,4 @@
-# my-settings-and-scripts-i3wm
+# my-settings-and-scripts- I3wm + XFCE
 
 # Here are all my i3wm settings, I won't add i3status because I use it with the default setting
 
