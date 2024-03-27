@@ -3,22 +3,30 @@
 # Here are all my i3wm settings, I won't add i3status because I use it with the default setting
 
 ### how to install i3:
-move `i3` to `~/.config/`
+move `.config` to `~/`
 after... than press `ctrl+Shift+R`
 
+### how to install nixos settings:
+move `configuration.nix` to `/etc/nixos/`
+
+after... `sudo nixos-rebuild switch`
+
+reboot
+
 dependency:
+- font-awesome
+- neovim
+- lxqt.lxqt-policykit
+- lxqt.lxqt-config
+- xfce.xfce4-clipman-plugin
 - rofi
-
-how to install the dependency?! 
-
-You can use the following command: 
-
-`sudo apt-get -y install rofi`
-
-
-### how to install rofi settings:
-move `rofi` to `~/.config/`
-after... reboot your machine
+- i3blocks
+- picom
+- dunst
+- gtk3 gtk4
+- scrot
+- nitrogen
+- playerctl
 
 This is only!
 
