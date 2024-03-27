@@ -27,6 +27,7 @@ dependency:
 - scrot
 - nitrogen
 - playerctl
+- neofetch
 
 This is only!
 
