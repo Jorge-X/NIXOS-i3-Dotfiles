@@ -28,6 +28,7 @@ dependency:
 - nitrogen
 - playerctl
 - neofetch
+- htop
 
 This is only!
 
