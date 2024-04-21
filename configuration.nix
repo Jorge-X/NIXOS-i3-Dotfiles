@@ -106,6 +106,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   neovim
+  codeium
+  neofetch
   lxqt.lxqt-policykit
   lxqt.lxqt-config
   xfce.xfce4-clipman-plugin
@@ -117,8 +119,12 @@
   scrot
   nitrogen
   playerctl
-  neofetch
   htop
+
+  git python3 nodejs 
+  gcc vscode
+
+
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
